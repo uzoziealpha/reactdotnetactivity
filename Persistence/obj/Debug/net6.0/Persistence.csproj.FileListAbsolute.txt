@@ -1,0 +1,15 @@
+/Users/obinnauzozie/Activityreact/Persistence/bin/Debug/net6.0/Persistence.deps.json
+/Users/obinnauzozie/Activityreact/Persistence/bin/Debug/net6.0/Persistence.dll
+/Users/obinnauzozie/Activityreact/Persistence/bin/Debug/net6.0/ref/Persistence.dll
+/Users/obinnauzozie/Activityreact/Persistence/bin/Debug/net6.0/Persistence.pdb
+/Users/obinnauzozie/Activityreact/Persistence/bin/Debug/net6.0/Domain.dll
+/Users/obinnauzozie/Activityreact/Persistence/bin/Debug/net6.0/Domain.pdb
+/Users/obinnauzozie/Activityreact/Persistence/obj/Debug/net6.0/Persistence.csproj.AssemblyReference.cache
+/Users/obinnauzozie/Activityreact/Persistence/obj/Debug/net6.0/Persistence.GeneratedMSBuildEditorConfig.editorconfig
+/Users/obinnauzozie/Activityreact/Persistence/obj/Debug/net6.0/Persistence.AssemblyInfoInputs.cache
+/Users/obinnauzozie/Activityreact/Persistence/obj/Debug/net6.0/Persistence.AssemblyInfo.cs
+/Users/obinnauzozie/Activityreact/Persistence/obj/Debug/net6.0/Persistence.csproj.CoreCompileInputs.cache
+/Users/obinnauzozie/Activityreact/Persistence/obj/Debug/net6.0/Persistence.csproj.CopyComplete
+/Users/obinnauzozie/Activityreact/Persistence/obj/Debug/net6.0/Persistence.dll
+/Users/obinnauzozie/Activityreact/Persistence/obj/Debug/net6.0/ref/Persistence.dll
+/Users/obinnauzozie/Activityreact/Persistence/obj/Debug/net6.0/Persistence.pdb

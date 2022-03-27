@@ -1,0 +1,12 @@
+/Users/obinnauzozie/Activityreact/Domain/bin/Debug/net6.0/Domain.deps.json
+/Users/obinnauzozie/Activityreact/Domain/bin/Debug/net6.0/Domain.dll
+/Users/obinnauzozie/Activityreact/Domain/bin/Debug/net6.0/ref/Domain.dll
+/Users/obinnauzozie/Activityreact/Domain/bin/Debug/net6.0/Domain.pdb
+/Users/obinnauzozie/Activityreact/Domain/obj/Debug/net6.0/Domain.csproj.AssemblyReference.cache
+/Users/obinnauzozie/Activityreact/Domain/obj/Debug/net6.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/obinnauzozie/Activityreact/Domain/obj/Debug/net6.0/Domain.AssemblyInfoInputs.cache
+/Users/obinnauzozie/Activityreact/Domain/obj/Debug/net6.0/Domain.AssemblyInfo.cs
+/Users/obinnauzozie/Activityreact/Domain/obj/Debug/net6.0/Domain.csproj.CoreCompileInputs.cache
+/Users/obinnauzozie/Activityreact/Domain/obj/Debug/net6.0/Domain.dll
+/Users/obinnauzozie/Activityreact/Domain/obj/Debug/net6.0/ref/Domain.dll
+/Users/obinnauzozie/Activityreact/Domain/obj/Debug/net6.0/Domain.pdb
