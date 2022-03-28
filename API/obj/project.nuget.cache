@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "19odsxa1liQLa4MJPR7+/QQt+RKvNg17dhXafFQY62QeW4CfC2L8yIKPmGvxdUCt/8l/MTsNqqfVoCT809Vluw==",
+  "dgSpecHash": "u2DnlqxV6aQu/y8AIiQVMv3B+haqQpK4OIz/fCtfmZlTh3JQ7Wjjg8u/F36URofixht79eru4AYbw7ESwXR1Zg==",
   "success": true,
   "projectFilePath": "/Users/obinnauzozie/Activityreact/API/API.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,7 @@
     "/Users/obinnauzozie/.nuget/packages/microsoft.entityframeworkcore.relational/6.0.3/microsoft.entityframeworkcore.relational.6.0.3.nupkg.sha512",
     "/Users/obinnauzozie/.nuget/packages/microsoft.entityframeworkcore.sqlite/6.0.3/microsoft.entityframeworkcore.sqlite.6.0.3.nupkg.sha512",
     "/Users/obinnauzozie/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/6.0.3/microsoft.entityframeworkcore.sqlite.core.6.0.3.nupkg.sha512",
+    "/Users/obinnauzozie/.nuget/packages/microsoft.entityframeworkcore.tools/6.0.3/microsoft.entityframeworkcore.tools.6.0.3.nupkg.sha512",
     "/Users/obinnauzozie/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "/Users/obinnauzozie/.nuget/packages/microsoft.extensions.caching.abstractions/6.0.0/microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "/Users/obinnauzozie/.nuget/packages/microsoft.extensions.caching.memory/6.0.1/microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
