@@ -1,12 +1,13 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.InteropServices;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -34,11 +35,19 @@ namespace API
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebAPIv5", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "API", Version = "v1" });
             });
             services.AddDbContext<DataContext>(opt => 
             {
                opt.UseSqlite(_config.GetConnectionString("DefaultConnection"));
+            });
+            services.AddCors(opt => 
+            {
+                opt.AddPolicy("CorsPolicy", policy => 
+                {
+                    //this creates the headers for POST< GET< DELETE
+                      policy.AllowAnyMethod().AllowAnyHeader().WithOrigins("http://localhost:3000");
+                });
             });
         }
 
@@ -47,14 +56,15 @@ namespace API
         {
             if (env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebAPIv5 v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "API v1"));
             }
 
-            app.UseHttpsRedirection();
+           // app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseCors("CorsPolicy");
 
             app.UseAuthorization();
 
