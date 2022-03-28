@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using MediatR;
+using Application.Activities;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
@@ -48,6 +50,8 @@ namespace API
                     //this creates the headers for POST< GET< DELETE
                       policy.AllowAnyMethod().AllowAnyHeader().WithOrigins("http://localhost:3000");
                 });
+                //bringin in the mediator and telling it where the handlers are.
+                services.AddMediatR(typeof(List.Handler).Assembly);
             });
         }
 

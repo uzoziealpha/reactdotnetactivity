@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "HAOQo14nkM5fuL5DwelepFG9R0SNdvIt56nHsawUKik4FiF5PZOY1ThSdRKINXhOt0Dzu2rdzKKvUATf+F8yhg==",
+  "dgSpecHash": "fahpP3O5th98gxILcFakitB7eaR+5afpHd/UgydQwwWbSsuAc+QN1052S1DLjSuclL1wS+S21ScBc2ht/SynUw==",
   "success": true,
   "projectFilePath": "/Users/obinnauzozie/Activityreact/Application/Application.csproj",
   "expectedPackageFiles": [
+    "/Users/obinnauzozie/.nuget/packages/mediatr/10.0.1/mediatr.10.0.1.nupkg.sha512",
+    "/Users/obinnauzozie/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
+    "/Users/obinnauzozie/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/10.0.1/mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
     "/Users/obinnauzozie/.nuget/packages/microsoft.aspnetcore.cryptography.internal/6.0.3/microsoft.aspnetcore.cryptography.internal.6.0.3.nupkg.sha512",
     "/Users/obinnauzozie/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/6.0.3/microsoft.aspnetcore.cryptography.keyderivation.6.0.3.nupkg.sha512",
     "/Users/obinnauzozie/.nuget/packages/microsoft.aspnetcore.identity.entityframeworkcore/6.0.3/microsoft.aspnetcore.identity.entityframeworkcore.6.0.3.nupkg.sha512",
