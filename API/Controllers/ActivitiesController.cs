@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MediatR;
+using Microsoft.EntityFrameworkCore;
+using Persistence;
 
 namespace API.Controllers
 {
@@ -28,7 +30,7 @@ namespace API.Controllers
         [HttpGet("{id}")] 
          public async Task<ActionResult<Activity>> GetActivity(Guid id)
         {
-            return Ok();
+           return Ok();
         }
     }
 }

@@ -50,9 +50,9 @@ namespace API
                     //this creates the headers for POST< GET< DELETE
                       policy.AllowAnyMethod().AllowAnyHeader().WithOrigins("http://localhost:3000");
                 });
-                //bringin in the mediator and telling it where the handlers are.
-                services.AddMediatR(typeof(List.Handler).Assembly);
             });
+             //bringin in the mediator and telling it where the handlers are.
+                services.AddMediatR(typeof(List.Handler).Assembly);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
