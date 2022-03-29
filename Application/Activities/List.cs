@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Persistence;
-using Application.Activities;
-using System.Security.Policy;
-using System.Runtime.Remoting;
-using System.Runtime.InteropServices;
+
 
 namespace Application.Activities
 {
@@ -32,4 +29,3 @@ namespace Application.Activities
        }
     }  
 }
-

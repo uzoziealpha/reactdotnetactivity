@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "j1FUXRnxKavxbgR/M1Z2Fp9sNl23v8z4ClPnoWolRbIZ8Tv9qvEnyZ/I5GOnldCDo2kni8oKEZhb3cSX9TYQag==",
+  "dgSpecHash": "IvXkjYvHwgznMnNwTdgqb/tm91W3wanmsrMMIcAdqK9JBTSDlYS0/9Kmz1eX5RjakenDdm4RQVX6b2/f2J9gvw==",
   "success": true,
   "projectFilePath": "/Users/obinnauzozie/Activityreact/API/API.csproj",
   "expectedPackageFiles": [
+    "/Users/obinnauzozie/.nuget/packages/automapper/11.0.0/automapper.11.0.0.nupkg.sha512",
+    "/Users/obinnauzozie/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/11.0.0/automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "/Users/obinnauzozie/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/obinnauzozie/.nuget/packages/mediatr/10.0.1/mediatr.10.0.1.nupkg.sha512",
     "/Users/obinnauzozie/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
@@ -11,6 +13,7 @@
     "/Users/obinnauzozie/.nuget/packages/microsoft.aspnetcore.cryptography.internal/6.0.3/microsoft.aspnetcore.cryptography.internal.6.0.3.nupkg.sha512",
     "/Users/obinnauzozie/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/6.0.3/microsoft.aspnetcore.cryptography.keyderivation.6.0.3.nupkg.sha512",
     "/Users/obinnauzozie/.nuget/packages/microsoft.aspnetcore.identity.entityframeworkcore/6.0.3/microsoft.aspnetcore.identity.entityframeworkcore.6.0.3.nupkg.sha512",
+    "/Users/obinnauzozie/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/obinnauzozie/.nuget/packages/microsoft.data.sqlite.core/6.0.3/microsoft.data.sqlite.core.6.0.3.nupkg.sha512",
     "/Users/obinnauzozie/.nuget/packages/microsoft.entityframeworkcore/6.0.3/microsoft.entityframeworkcore.6.0.3.nupkg.sha512",
     "/Users/obinnauzozie/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.3/microsoft.entityframeworkcore.abstractions.6.0.3.nupkg.sha512",

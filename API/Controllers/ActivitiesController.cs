@@ -1,14 +1,12 @@
 using System;
-using System.Collections.Generic;
+using System.Runtime.Remoting;
 using System.Threading.Tasks;
+using Application.Activites;
 using Application.Activities;
 using Domain;
-using Microsoft.AspNetCore.Components;
+
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Persistence;
-
 
 namespace API.Controllers
 {
@@ -35,8 +33,8 @@ namespace API.Controllers
             return Ok(await Mediator.Send(new Create.Command {Activity = activity}));
 
         }
-        //we use http put to update the resources with edit
-        [HttpPut("{id}")]
+        
+        [HttpPut("id")]
 
         public async Task<IActionResult> EditActivity(Guid id, Activity activity)
         {

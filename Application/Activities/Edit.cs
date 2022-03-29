@@ -1,6 +1,5 @@
 using System.Threading;
 using System.Threading.Tasks;
-using System.Threading.Tasks.Sources;
 //we bring in domain to be able to use the activity from details
 using Domain;
 using MediatR;
@@ -8,7 +7,7 @@ using Persistence;
 using Application.Activities;
 
 
-namespace Application.Activities
+namespace Application.Activites
 {
     public class Edit 
     {
@@ -28,7 +27,7 @@ namespace Application.Activities
         public async Task<Unit> Handle(Command request, CancellationToken cancellationToken)
         {
             var activity = await _context.Activities.FindAsync(request.Activity.Id);
-
+            
             activity.Title = request.Activity.Title ?? activity.Title;
 
             await _context.SaveChangesAsync();
