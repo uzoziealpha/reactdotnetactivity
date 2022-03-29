@@ -1,9 +1,10 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import './styles.css';
 import axios from 'axios';
-import { Container, Header, List } from 'semantic-ui-react';
+import { Container } from 'semantic-ui-react';
 import { Activity } from '../models/activity';
 import NavBar from './Navbar';
+import ActivityDashboard from '../../features/activities/dashboard/ActivityDashboard';
 
 
 function App() {
@@ -11,10 +12,9 @@ function App() {
  
   useEffect(() => {
     axios.get<Activity[]>('http://localhost:5000/api/activities').then(response => {
-      console.log(response);
       setActivities(response.data);
     })
-  }, []);
+  }, [])
  
  
  
@@ -22,14 +22,7 @@ function App() {
     <>
       <NavBar/>
       <Container style={{marginTop: '7em'}}>
-      <List>
-         {activities.map(activity => (
-           <List.Item key={activity.id}>
-              {activity.title}
-            
-            </List.Item>
-          ))}
-         </List>
+       <ActivityDashboard activities={activities} />
       </Container>    
     </>
     
