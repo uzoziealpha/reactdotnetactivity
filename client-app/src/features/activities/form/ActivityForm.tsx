@@ -12,7 +12,7 @@ interface Props {
 
 export default function ActivityForm({activity: selectedActivity, closeForm, createOrEdit}: Props) {
 
-    const initialState =  selectedActivity ?? {
+    const initialState = selectedActivity ?? {
         id: '',
         title: '',
         category: '',
@@ -26,7 +26,7 @@ export default function ActivityForm({activity: selectedActivity, closeForm, cre
     const [activity, setActivity] = useState(initialState);
 
     function handleSubmit() {
-    //    console.log(activity);
+       //console.log(activity);
        createOrEdit(activity);
     }
 
